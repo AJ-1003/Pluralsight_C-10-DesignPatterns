@@ -1,0 +1,10 @@
+﻿namespace AbstractFactory.Belgium
+{
+    /// <summary>
+    /// ConcreteProduct
+    /// </summary>
+    public class BelgiumDiscountService : IDiscountService
+    {
+        public int DiscountPercentage => 20;
+    }
+}
